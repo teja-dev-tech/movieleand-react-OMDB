@@ -1,12 +1,14 @@
 # movieleand-react-OMDB
 Created a responsive website to search for movies using React.js and OMDB API
 
-![image](https://github.com/teja-dev-tech/movieleand-react-OMDB/assets/135051682/80a63891-62e8-4a0c-aa01-79b31a240e7b)
+![image](https://github.com/teja-dev-tech/movieleand-react-OMDB/assets/135051682/ff55666a-fb55-49c7-9cc6-cc07a5e4e772)
+
 
 In Tablet mode
 
 
-![image](https://github.com/teja-dev-tech/movieleand-react-OMDB/assets/135051682/4ac07715-45dd-4ab3-a14b-fc8f9a7f08b6)
+![image](https://github.com/teja-dev-tech/movieleand-react-OMDB/assets/135051682/3d28992f-5eef-4e76-8d31-8f8a893bcc85)
+
 
 In Mobile
 
