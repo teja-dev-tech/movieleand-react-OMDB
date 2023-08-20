@@ -12,6 +12,10 @@ console.log(process.env.REACT_APP_API_KEY);
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  let len=0;
+  if(movies){
+    len=movies.length;
+  }
 
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
@@ -48,7 +52,7 @@ const App = () => {
         />
       </div>
 
-      {movies.length > 0 ? (
+      {len > 0 ? (
         <div className="container">
           {movies.map((movie) => (
             <MovieCard movie={movie} key={movie.imdbID} />
